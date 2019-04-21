@@ -19,7 +19,7 @@ class PigLatinizer
     # Check if first letter is vowel
     if vowel?(word.first)
     #   if vowel:
-          word = word.join + "w"
+          word << "w"
     #     add "w" to end of word
     else
     #   if not:
