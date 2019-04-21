@@ -31,7 +31,7 @@ class PigLatinizer
     word[0] = word[0].upcase if caps_flag
     word = word.join + "ay"
   end
-  
+
   def vowel?(character)
     if character.downcase == "a" ||
         character.downcase == "e" ||
