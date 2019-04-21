@@ -11,7 +11,7 @@ class App < Sinatra::Base
     erb :output
   end
 
-  post '/' do
+  post '/piglatinize' do
     binding.pry
   end
 end
