@@ -27,7 +27,7 @@ class PigLatinizer
     # Split word into character array
     word = word.chars
     # Check if word is capitalized and set caps_flag accordingly
-    caps_flag = true if upcase?(word.first)  
+    caps_flag = true if upcase?(word.first)
     # Downcase word
     word = word.map { |character| character.downcase }
     # Check if first letter is vowel
@@ -39,7 +39,7 @@ class PigLatinizer
     #   if not:
           word = move_consonants(word)
     #     pick off starting consonants and
-    #     add starting consonants to end of word 
+    #     add starting consonants to end of word
     end
     # If caps_flag is true capitalize word
     word[0] = word[0].upcase if caps_flag
@@ -60,7 +60,7 @@ class PigLatinizer
     true if character == character.upcase
   end
 
-  def move_consonants(word) 
+  def move_consonants(word)
     # moves letters from the start to the end of the word array until a vowel is found
     # or every letter has been moved.
     count = 0
