@@ -8,20 +8,6 @@ class PigLatinizer
     end
     @word_array.join(" ")
   end
-  #    if !vowel?(word.first)
-  #      first_letter = word.shift
-  #      if upcase?(first_letter)
-  #        first_letter = first_letter.downcase
-  #        word[0] = word.first.upcase
-  #      end
-  #      word << first_letter
-  #      word = word.join + "ay"
-  #    else
-  #      word = word.join + "way"
-  #    end
-  #  end
-
-  end
 
   def translate(word)
     # Split word into character array
