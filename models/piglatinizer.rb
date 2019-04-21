@@ -30,6 +30,7 @@ class PigLatinizer
     # If caps_flag is true capitalize word
     word[0] = word[0].upcase if caps_flag
     word = word.join + "ay"
+    binding.pry
   end
 
   def vowel?(character)
