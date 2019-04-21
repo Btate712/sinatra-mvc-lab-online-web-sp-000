@@ -61,9 +61,3 @@ describe "Pig Latinizer App" do
   end
 
 end
-
-Ehay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway ethay ulfGay eamStray andway
-ehay adhay onegay eightyway ourfay aysday ownay ithoutway akingtay away ishfay
-
-Ehay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway ethay Ulfgay Eamstray andway
-ehay adhay onegay eightyway ourfay aysday ownay ithoutway akingtay away ishfay
