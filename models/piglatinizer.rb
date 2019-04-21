@@ -3,7 +3,7 @@ class PigLatinizer
 
     output_array = []
     @word_array = input_text.split(" ")
-    @word_array.map do |word|
+    @word_array = @word_array.map do |word|
       translate(word)
     end
     @word_array.join(" ")
@@ -30,7 +30,7 @@ class PigLatinizer
     # If caps_flag is true capitalize word
     word[0] = word[0].upcase if caps_flag
     word = word.join + "ay"
-    binding.pry
+    word
   end
 
   def vowel?(character)
