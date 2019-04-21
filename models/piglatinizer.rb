@@ -55,7 +55,7 @@ class PigLatinizer
       removed_letter = word.shift
       word << removed_letter
       count += 1
-      if word[0] == 'q'
+      if word.last == 'q'
         removed_letter = word.shift
         word << removed_letter
         count += 1
